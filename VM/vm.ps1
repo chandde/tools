@@ -53,4 +53,6 @@ function ImportVM
 }
 
 # usage
+
 # CreateVM -VMName test3 -VMRootFolder d:\hyperv -VHDSize 100GB -VMGen 1 -ISOPath D:\ISO\ubuntu-20.04.2-live-server-amd64.iso -CpuCount 4
+# ImportVM -NewVMPath D:\Hyper-V\us1 -OldVMPath G:\VMExport\UbuntuServer.Template
